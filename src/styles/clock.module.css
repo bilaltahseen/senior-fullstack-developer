@@ -1,0 +1,35 @@
+.clock {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 400px;
+  border: 3.448px solid #fff;
+  opacity: 0.2;
+  background: #f3f3f3;
+  box-shadow: 13.793px 13.793px 34.483px 0px rgba(0, 0, 0, 0.25), -13.793px -13.793px 17.241px 3.448px #fff,
+    13.793px 13.793px 34.483px 0px rgba(0, 0, 0, 0.25) inset, -13.793px -13.793px 34.483px 0px #fff inset;
+}
+
+.minutehand {
+  position: absolute;
+  top: 134px;
+  left: 286px;
+  transform-origin: 2.5px 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.hourhand {
+  position: absolute;
+  top: 183px;
+  left: 216px;
+  transform-origin: 2.5px 100%;
+}
+
+.ticks {
+  position: absolute;
+  top: 116px;
+  left: 124px;
+  border-radius: 344.828px;
+  border: 12.241px dashed #000;
+  opacity: 0.2;
+}
